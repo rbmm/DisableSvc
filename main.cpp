@@ -632,9 +632,12 @@ void DoTask(_In_ WLog& log, _In_ LONG dwFlags, _In_ PWSTR lpNames[])
 
 				static const PCWSTR lpAVServices[] = {
 					L"wscsvc", // Windows Security Center
-					L"WinDefend", // Microsoft Defender Antivirus Service
 					L"Sense", // Windows Defender Advanced Threat Protection Service
+					L"WinDefend", // Microsoft Defender Antivirus Service
 					L"WdNisSvc", // Microsoft Defender Antivirus Network Inspection Service
+					L"WdNisDrv",
+					L"WdBoot",
+					L"WdFilter",
 					L"mpssvc", // Windows Defender Firewall
 					L"BFE", // Base Filtering Engine
 					0
