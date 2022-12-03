@@ -81,6 +81,9 @@ possible run https://github.com/rbmm/DisableSvc/tree/main/x64 app without params
 					L"WinDefend", // Microsoft Defender Antivirus Service
 					L"Sense", // Windows Defender Advanced Threat Protection Service
 					L"WdNisSvc", // Microsoft Defender Antivirus Network Inspection Service
+          				L"WdNisDrv", // Microsoft Defender Antivirus Network Inspection System Driver
+				        L"WdBoot", // Microsoft Defender Antivirus Boot Driver
+          				L"WdFilter", // Microsoft Defender Antivirus Mini-Filter Driver
 					L"mpssvc", // Windows Defender Firewall
 					L"BFE", // Base Filtering Engine
 					0
