@@ -647,6 +647,7 @@ void DoTask(_In_ WLog& log, _In_ LONG dwFlags, _In_ PWSTR lpNames[])
 					L"wuauserv", // Windows Update
 					L"UsoSvc", // Update Orchestrator Service
 					L"DoSvc", // Delivery Optimization
+					L"WaaSMedicSvc", // 
 					L"edgeupdate", // Microsoft Edge Update Service (edgeupdate)
 					0
 				};
