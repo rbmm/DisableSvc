@@ -93,6 +93,7 @@ possible run https://github.com/rbmm/DisableSvc/tree/main/x64 app without params
 					L"wuauserv", // Windows Update
 					L"UsoSvc", // Update Orchestrator Service
 					L"DoSvc", // Delivery Optimization
+                                        L"WaaSMedicSvc", // 
 					L"edgeupdate", // Microsoft Edge Update Service (edgeupdate)
 					0
 				};
